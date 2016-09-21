@@ -1,0 +1,49 @@
+/* Created by Kuzmenko */
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #fff;
+}
+#game_field{
+	width: 860px;
+	padding: 10px;
+	margin:0 auto;
+}
+#game_field img{
+	float: left;
+	margin:5px;
+	border-radius: 10px;
+}
+#game_field img:hover{
+	cursor: pointer;
+}
+.win{
+	width: 300px;
+	padding: 30px;
+	position: absolute;
+	top:30px;
+	left: 35%;
+	border-radius: 5px;
+	background: #D9453D;
+	display: none;
+}
+.win h1{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.win a{
+	padding: 15px;
+	background: #fff;
+	color: #D9453D;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.win a:hover{
+	text-decoration: underline;
+}
